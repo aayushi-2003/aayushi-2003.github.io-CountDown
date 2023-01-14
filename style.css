@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNsb3Vkc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    background-position: center center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 5rem;
+    font-weight: normal;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0.2rem;
+}
+.countdown{
+    text-align: center;
+}
+.countdown span{
+    font-size: 1.5rem;
+    margin: 2rem;
+    
+}
+
+.remain{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.remain img{
+    height: 14rem;
+    width: 12.8rem
+}
